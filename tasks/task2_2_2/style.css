@@ -1,0 +1,64 @@
+h1 {
+    color: lightcyan;
+}
+h2 {
+    color: aqua;
+}
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+li {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+p > strong{
+    color: crimson;
+    font-size: 1.2em;
+}
+.mei {
+    color:blueviolet;
+    font-weight: 1000;
+}
+a:hover, a:focus{
+    color: aliceblue;
+    transition: color 0.5s;
+}
+#np{
+    display: none;
+}
+label[for="np"]{
+    cursor: pointer;
+    border: 1px solid;
+    padding: 0.3rem 0.6 rem;
+}
+
+.seconde{
+    display: none;
+    width: 300px;
+}
+.txt{
+    display: none;
+}
+
+#np:checked ~ .seconde{
+    display: inline;
+}
+
+#np:checked ~ .txt{
+    display: block;
+}
+
+.first{
+    width: 200px;
+}
+
+.wow{
+    font-weight: bolder;
+    color: red;
+    font-size: larger;
+}
